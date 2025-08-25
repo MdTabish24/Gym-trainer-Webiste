@@ -9,4 +9,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/Gym-trainer-Webiste/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
 })
